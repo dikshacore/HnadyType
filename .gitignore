@@ -1,0 +1,33 @@
+# --- Python (backend) ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+*.sqlite3
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Node / Next.js (frontend) ---
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Generated / local artifacts ---
+*.log
+backend/enrollment_sheets/*.png
